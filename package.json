@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "keymirror": "^0.1.1",
     "meow": "^3.7.0"
   }
 }
