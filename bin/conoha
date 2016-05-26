@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 const conoha = require('../lib/conoha');
-conoha();
+conoha.exec();
