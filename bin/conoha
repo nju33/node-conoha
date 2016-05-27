@@ -1,4 +1,11 @@
 #!/usr/bin/env node
 
+const inquirer = require('../lib/inquirer');
 const conoha = require('../lib/conoha');
-conoha.exec();
+const cli = require('../lib/cli');
+
+if (cli.flags.i === true || cli.flags.inquire === true) {
+  inquirer.command();
+} else {
+  conoha.exec();
+}

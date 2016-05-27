@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "inquirer": "^1.0.2",
     "keymirror": "^0.1.1",
     "lodash.get": "^4.3.0",
     "meow": "^3.7.0",
