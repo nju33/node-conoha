@@ -1,21 +1,39 @@
-# Preparation
+# Conoha-cli
 
-`~/.conoha/endpoint.js`
+```
+Usage
+  $ conoha <command> <options...>
 
-```js
-const TENANT_ID = 'xxx';
+Commands
+  ready              Prepare necessary data
+  flavors
+  servers            Show servers list
+  serversDetail      Show detailed servers list
+  serverInfo         Show the Server infomations
+  addServer          Add Server
+  deleteServer       Delete Server
+  images
+  isoImages
+  objectStorageInfo  Show Object-Storage data
+  containerInfo      Show the Container infomations
+  addContainer       Add Container
+  deleteContainer    Delete Container
 
-module.exports = {
-  account: `https://account.tyo1.conoha.io/v1/${TENANT_ID}`,
-  compute: `https://compute.tyo1.conoha.io/v2/${TENANT_ID}`,
-  volume: `https://block-storage.tyo1.conoha.io/v2/${TENANT_ID}`,
-  database: `https://database-hosting.tyo1.conoha.io/v1`,
-  image: `https://image-service.tyo1.conoha.io`,
-  dns: `https://dns-service.tyo1.conoha.io`,
-  objectStorage: `https://object-storage.tyo1.conoha.io/v1/nc_${TENANT_ID}`,
-  mail: `https://mail-hosting.tyo1.conoha.io/v1	`,
-  identity: `https://identity.tyo1.conoha.io/v2.0`,
-  network: `https://networking.tyo1.conoha.io`
-};
+Options
+  -h --help       Show help
+  -i --inquire    Inquire mode
+  -c --config     ...
+  -d --dirname    Specify a target property (lodash.get)
+  -p --props      Pick object keys (lodash.pick)
+  -f --form       Set \`application/x-www-form-urlencoded\`
+  -j --json       Read .json
+     --server-id  Set serverID
+     --container  Set container
+     --object     Set object
 
+Examples
+  $ conoha ready
+
+  Created \`~/.conoha/data.json\`
+  {...}
 ```
