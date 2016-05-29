@@ -2,7 +2,6 @@
   "server": {
     "imageRef": "f5e5b475-ebec-4973-99c7-bc8add5d16c4",
     "flavorRef": "7eea7469-0d85-4f82-8050-6ae742394681",
-    "adminPass": "!NodeConohaCli",
-    "key_name": "node-conoha-cli"
+    "adminPass": ",Asdfghjkl"
   }
 }

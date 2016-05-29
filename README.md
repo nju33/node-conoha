@@ -27,6 +27,7 @@ Options
   -p --props      Pick object keys (lodash.pick)
   -f --form       Set \`application/x-www-form-urlencoded\`
   -j --json       Read .json
+     --upload     Set upload file
      --server-id  Set serverID
      --container  Set container
      --object     Set object
