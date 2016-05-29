@@ -1,0 +1,7 @@
+{
+  "rebuild": {
+    "imageRef": "f5e5b475-ebec-4973-99c7-bc8add5d16c4",
+    "adminPass": ",Asdfghjkl",
+    "key_name": "node-conoha-cli"
+  }
+}

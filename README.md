@@ -24,6 +24,7 @@ Commands
   serversDetail      Show detailed servers list
   serverInfo         Show the Server
   addServer          Add Server
+  reinstall          Re-Install the server
   deleteServer       Delete Server
 
   objectStorageInfo  Show Object-Storage data
@@ -32,7 +33,7 @@ Commands
   deleteContainer    Delete Container
   containerUpload    Upload to the Container
   containerDownload  Download form the Container
-  containerDelete    Delete to item in Container
+  containerDelete    Delete item in Container
   containerPublish   Publish to item in Container
 
 Options
