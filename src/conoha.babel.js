@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import identity from './identity';
+import compute from './compute';
 import os from './os';
 
 export default class Conoha {
@@ -9,6 +10,10 @@ export default class Conoha {
 
   get identify() {
     return identity(this.user);
+  }
+
+  get compute() {
+    return compute(this.user);
   }
 
   get os() {
