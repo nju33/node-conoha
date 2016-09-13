@@ -14,6 +14,7 @@ export default function object(user, containername, objectname) {
         request({
           method: 'GET',
           url: `${endpoint}/${containername}/${encodeURIComponent(objectname)}`,
+          encoding: null,
           headers: {
             Accept: 'application/json',
             'X-Auth-Token': user.accessToken.id

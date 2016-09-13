@@ -8,7 +8,7 @@ export default class Conoha {
     this.user = user;
   }
 
-  get identify() {
+  get identity() {
     return identity(this.user);
   }
 

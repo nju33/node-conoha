@@ -21,7 +21,7 @@
     "lodash.pick": "^4.2.1",
     "meow": "^3.7.0",
     "ora": "^0.3.0",
-    "request": "^2.72.0"
+    "request": "^2.65.0"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
